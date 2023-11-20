@@ -1,0 +1,210 @@
+[
+    {
+      "name": "John Doe",
+      "dob": "1990-05-15",
+      "gender": "Male",
+      "address": "123 Main Street, Cityville",
+      "accNo": "5fc13d3b79358d4c465b40c8",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1000,
+          "date": "2023-01-01"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -500,
+          "date": "2023-02-15"
+        }
+      ],
+      "currentBal": 500,
+      "imgUrl": "https://example.com/john_doe.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "dob": "1985-08-22",
+      "gender": "Female",
+      "address": "456 Oak Avenue, Townsville",
+      "accNo": "5fc13d3b79358d4c465b40c9",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1500,
+          "date": "2023-03-10"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -200,
+          "date": "2023-04-20"
+        }
+      ],
+      "currentBal": 1300,
+      "imgUrl": "https://example.com/jane_smith.jpg"
+    },
+    {
+      "name": "Bob Johnson",
+      "dob": "1988-12-05",
+      "gender": "Male",
+      "address": "789 Pine Street, Villagetown",
+      "accNo": "5fc13d3b79358d4c465b40ca",
+      "email": "bob.johnson@example.com",
+      "phone": "555-123-4567",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 800,
+          "date": "2023-05-02"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -300,
+          "date": "2023-06-18"
+        }
+      ],
+      "currentBal": 500,
+      "imgUrl": "https://example.com/bob_johnson.jpg"
+    },
+    {
+      "name": "Emily Davis",
+      "dob": "1992-07-17",
+      "gender": "Female",
+      "address": "101 Maple Lane, Hamletville",
+      "accNo": "5fc13d3b79358d4c465b40cb",
+      "email": "emily.davis@example.com",
+      "phone": "777-987-6543",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1200,
+          "date": "2023-07-12"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -150,
+          "date": "2023-08-25"
+        }
+      ],
+      "currentBal": 1050,
+      "imgUrl": "https://example.com/emily_davis.jpg"
+    },
+    {
+      "name": "Michael White",
+      "dob": "1982-03-28",
+      "gender": "Male",
+      "address": "202 Cedar Street, Woodland",
+      "accNo": "5fc13d3b79358d4c465b40cc",
+      "email": "michael.white@example.com",
+      "phone": "333-555-7890",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 2000,
+          "date": "2023-09-03"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -700,
+          "date": "2023-10-15"
+        }
+      ],
+      "currentBal": 1300,
+      "imgUrl": "https://example.com/michael_white.jpg"
+    },
+    {
+      "name": "Emma Taylor",
+      "dob": "1995-01-10",
+      "gender": "Female",
+      "address": "303 Birch Avenue, Lakeside",
+      "accNo": "5fc13d3b79358d4c465b40cd",
+      "email": "emma.taylor@example.com",
+      "phone": "888-456-7890",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1800,
+          "date": "2023-11-21"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -300,
+          "date": "2023-12-30"
+        }
+      ],
+      "currentBal": 1500,
+      "imgUrl": "https://example.com/emma_taylor.jpg"
+    },
+    {
+      "name": "Ryan Miller",
+      "dob": "1989-09-05",
+      "gender": "Male",
+      "address": "404 Elm Street, Hillside",
+      "accNo": "5fc13d3b79358d4c465b40ce",
+      "email": "ryan.miller@example.com",
+      "phone": "111-222-3333",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1600,
+          "date": "2024-01-14"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -400,
+          "date": "2024-02-27"
+        }
+      ],
+      "currentBal": 1200,
+      "imgUrl": "https://example.com/ryan_miller.jpg"
+    },
+    {
+      "name": "Olivia Brown",
+      "dob": "1993-12-18",
+      "gender": "Female",
+      "address": "505 Pine Avenue, Riverside",
+      "accNo": "5fc13d3b79358d4c465b40cf",
+      "email": "olivia.brown@example.com",
+      "phone": "999-888-7777",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1400,
+          "date": "2024-03-05"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -200,
+          "date": "2024-04-18"
+        }
+      ],
+      "currentBal": 1200,
+      "imgUrl": "https://example.com/olivia_brown.jpg"
+    },
+    {
+      "name": "David Wilson",
+      "dob": "1980-06-25",
+      "gender": "Male",
+      "address": "606 Oak Street, Meadowville",
+      "accNo": "5fc13d3b79358d4c465b40d0",
+      "email": "david.wilson@example.com",
+      "phone": "444-777-8888",
+      "transactions": [
+        {
+          "description": "Deposit",
+          "amount": 1000,
+          "date": "2024-05-12"
+        },
+        {
+          "description": "Withdrawal",
+          "amount": -300,
+          "date": "2024-06-25"
+        }
+      ],
+      "currentBal": 700,
+      "imgUrl": "https://example.com/david_wilson.jpg"
+    }
+  ]
+  

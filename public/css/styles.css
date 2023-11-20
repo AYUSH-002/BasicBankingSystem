@@ -1,0 +1,116 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("https://ik.imagekit.io/vq67jzt9p/etienne-martin-2_K82gx9Uk8-unsplash.jpg?updatedAt=1699423683842");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 400px) {
+  .home-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  .home-section .row {
+    width: 100%;
+  }
+
+  .customer-container {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .customer-card-container {
+    padding: 0;
+  }
+
+  .c-pic-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .customer-card {
+    margin-top: -25vh;
+    font-size: 0.9rem;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+
+  .buttons-container button,
+  .buttons-container a {
+    margin: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .customer-card img {
+    min-width: 75%;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles for medium screens */
+  .customers-table {
+    margin-left: -75%;
+  }
+
+  .customer-container {
+    min-height: 90vh;
+  }
+
+  .home-section {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  .customer-card-container {
+    min-width: 100%;
+  }
+
+  .customer-card {
+    margin-top: -25vh;
+    font-size: 0.9rem;
+  }
+
+  .customer-card button {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+  }
+}
+
+#showCustomerListBtn {
+  display: block;
+  margin: auto;
+  
+}
+
+
